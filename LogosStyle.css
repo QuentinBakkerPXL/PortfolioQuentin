@@ -4,15 +4,16 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
-/*background*/
 body {
-    height: 100vh;
-    background-color: white;
-    background-size: cover;
-    background-position: center;
+    height: 1000vh;
+    transition: background 1s ease;
 }
 
+.content {
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
 
 /*navbar*/
 li {
@@ -107,3 +108,5 @@ header {
         width: unset;
     }
 }
+
+
