@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #DC9CA4;
+    color: #7ABACA;
 }
 
 /*header*/
@@ -129,12 +129,45 @@ main {
 
 
 p, h1, h2, h2 {
-    font-family: Omnes, "New Hero", Arial;
+    font-family: 'Quicksand', sans-serif;
 }
 #header\ app {
    padding-top: 200px ;
 }
 
+
+
+.booton2 {
+    width: 9rem;
+    height: 3rem;
+    border-radius: 30rem;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #c5c5c5,
+    -6px -6px -12px #ffffff;
+}
+.booton2::before {
+    content: '';
+    color: white;
+    width: 0;
+    height: 3rem;
+    border-radius: 30rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to
+    right, #7ABACA 0%, #DC9CA4 100%);
+    transition: .3s ease;
+    display: block;
+    z-index: -1;
+}
+.booton2:hover::before {
+    width: 9rem;
+}
 
 
 
