@@ -8,8 +8,7 @@
 /*background*/
 body {
     height: 100vh;
-    background-color: black;
-    background-image: url("Assets/Background test.png");
+    background-color: white;
     background-size: cover;
     background-position: center;
 }
@@ -26,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: dodgerblue;
+    color: #DC9CA4;
 }
 
 /*header*/
@@ -107,4 +106,31 @@ header {
         left: 2rem;
         width: unset;
     }
+}
+main {
+    margin: 100px;
+    padding: 50px ;
+}
+
+.bg-image {
+    /* Full height */
+    height: 130%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Images used */
+.img1 { background-image: url("Assets/Background 4.png"); }
+.img2 { background-image: url("Assets/Background test.png"); }
+.img3 { background-image: url("Assets/Background test copy 3.png"); }
+
+
+p, h1, h2, h2 {
+    font-family: Omnes;
+}
+#header\ app {
+   padding-top: 30px ;
 }
