@@ -42,6 +42,8 @@
     </div>
 </header>
 
+
+<!--SELECTIE MAKEN-->
 <main>
     <div class="container" >
         <div class="col text-center">
@@ -51,23 +53,26 @@
             <div class="row">
                 <div class="col-4 text-center">
                     <h3>Dieren logo's</h3>
-                    <button class="booton">Yes please!</button>
+                    <button onclick="scrollToElement('animals')"class="booton">Yes please!</button>
                 </div>
                 <div class="col-4 text-center">
                     <h3>Tinyhouse</h3>
-                    <button class="booton">Yes please!</button>
+                    <button onclick="scrollToElement('tinyhouse')" class="booton">Yes please!</button>
                 </div>
                 <div class="col-4 text-center">
                     <h3>Andere</h3>
-                    <button class="booton">Yes please!</button>
+                    <button onclick="scrollToElement('andere')" class="booton">Yes please!</button>
                 </div>
             </div>
         </div>
     </div>
     <br>
+
+
+<!--    LOGO'S-->
     <div class="content">
     </div>
-    <div class="container">
+    <div id="animals" class="container">
         <div class="row">
             <div class="col-6">
                 <h1>Clappy</h1>
@@ -89,7 +94,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div id="tinyhouse"class="container">
         <div class="row">
             <div class="col-6">
                 <h1>TinyHouse Design 1</h1>
@@ -125,7 +130,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div id="andere" class="container">
         <div class="row">
             <div class="col-6">
                 <h1>Red Fuel</h1>

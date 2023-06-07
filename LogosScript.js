@@ -38,3 +38,10 @@ window.onscroll = function (event) {
         body.style.backgroundColor = '#2d4280';
     }
 }
+
+function scrollToElement(elementId) {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+}
