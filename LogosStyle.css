@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    color: #DC9CA4;
+    color: lightblue;
 }
 
 /*header*/
@@ -109,4 +109,12 @@ header {
     }
 }
 
+#mainheader {
+    padding: 100px;
+
+}
+#buttonsselectie {
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
 
