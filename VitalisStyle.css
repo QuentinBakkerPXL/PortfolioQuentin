@@ -129,8 +129,13 @@ main {
 
 
 p, h1, h2, h2 {
-    font-family: Omnes;
+    font-family: Omnes, "New Hero", Arial;
 }
 #header\ app {
    padding-top: 200px ;
 }
+
+
+
+
+
