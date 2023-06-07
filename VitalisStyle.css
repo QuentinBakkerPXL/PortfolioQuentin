@@ -109,12 +109,12 @@ header {
 }
 main {
     margin: 100px;
-    padding: 50px ;
+
 }
 
 .bg-image {
     /* Full height */
-    height: 130%;
+    height: 105%;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -132,5 +132,5 @@ p, h1, h2, h2 {
     font-family: Omnes;
 }
 #header\ app {
-   padding-top: 30px ;
+   padding-top: 200px ;
 }
