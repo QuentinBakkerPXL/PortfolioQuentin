@@ -125,3 +125,7 @@ header {
 .card:hover .img-top {
     display: inline;
 }
+
+.hide {
+    display: none;
+}
