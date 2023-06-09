@@ -152,3 +152,11 @@ header {
 .padding {
     padding-bottom: 400px;
 }
+.padding2 {
+    padding-bottom: 400px;
+    color: white;
+}
+.padding3 {
+    padding-bottom: 400px;
+    color: #d7185b;
+}

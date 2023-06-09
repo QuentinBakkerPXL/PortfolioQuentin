@@ -27,17 +27,17 @@ window.onscroll = function (event) {
     } else if (scroll >= 2000 && scroll < 2800) {
         // Tinyhouse
         body.style.backgroundColor = '#00c56f';
-    } else if (scroll >= 3600 && scroll < 4400) {
+    } else if (scroll >= 3600 && scroll < 4100) {
         // Tinyhouse 2
         body.style.backgroundColor = '#c50000';
-    } else if (scroll >= 4400 && scroll < 5200) {
+    } else if (scroll >= 4100 && scroll < 4500) {
         // Tinyhouse 3
         body.style.backgroundColor = '#32bf43';
-    } else if (scroll >= 5200 && scroll < 6000){
+    } else if (scroll >= 4500 && scroll < 5600){
         // Red Fuel
         body.style.backgroundColor = '#2d4280';
-    } else if (scroll >= 6000 && scroll < 6200){
-        body.style.backgroundColor = '#000000';
+    } else if (scroll >= 5600 && scroll < 6000){
+        body.style.backgroundColor = '#232323';
     }
 }
 
