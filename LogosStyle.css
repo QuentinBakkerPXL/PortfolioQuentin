@@ -148,3 +148,7 @@ header {
 .booton:hover::before {
     width: 9rem;
 }
+
+.padding {
+    padding-bottom: 400px;
+}

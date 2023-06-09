@@ -36,6 +36,8 @@ window.onscroll = function (event) {
     } else if (scroll >= 5200 && scroll < 6000){
         // Red Fuel
         body.style.backgroundColor = '#2d4280';
+    } else if (scroll >= 6000 && scroll < 6200){
+        body.style.backgroundColor = '#000000';
     }
 }
 
