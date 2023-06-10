@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #DC9CA4;
+    color: limegreen;
 }
 
 /*header*/
@@ -149,4 +149,8 @@ header {
 }
 main {
     padding: 100px;
+}
+
+.padding {
+    padding-top: 50px;
 }
