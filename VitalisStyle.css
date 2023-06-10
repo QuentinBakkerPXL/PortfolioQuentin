@@ -123,9 +123,17 @@ main {
 }
 
 /* Images used */
-.img1 { background-image: url("Assets/Background 4.png"); }
+.img1 {
+    background-image: url("Assets/Background 4.png");
+    height: 130%;
+
+}
 .img2 { background-image: url("Assets/Background test.png"); }
-.img3 { background-image: url("Assets/Background test copy 3.png"); }
+.img3 {
+    background-image: url("Assets/Background test copy 3.png");
+    height: 200%;
+
+}
 
 
 p, h1, h2, h2 {
@@ -169,6 +177,9 @@ p, h1, h2, h2 {
     width: 9rem;
 }
 
-
-
-
+#vitalis {
+    font-size: 100px;
+}
+h3 {
+    font-size: 50px;
+}

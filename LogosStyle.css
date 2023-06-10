@@ -156,7 +156,12 @@ header {
     padding-bottom: 400px;
     color: white;
 }
-.padding3 {
-    padding-bottom: 400px;
-    color: #d7185b;
+
+.padding p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.padding2 p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
