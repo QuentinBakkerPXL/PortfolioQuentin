@@ -115,10 +115,17 @@ main {
 .img_img {
     width: 400px;
 }
-
 .CV {
     color: cornflowerblue;
 }
+
+.padding {
+    padding-bottom: 40px;
+}
+
+
+
+
 .wrapper {
     left: 50%;
     top: 50%;
@@ -153,9 +160,7 @@ h2 {
 
 .bar {
     position: relative;
-
     border: 2px solid white;
-
     border-radius: 20px;
 
 }
@@ -228,3 +233,5 @@ h2 {
         width: 80%;
     }
 }
+
+
