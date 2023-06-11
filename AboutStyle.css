@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-    color: #DC9CA4;
+    color: #33c4f3;
 }
 
 /*header*/
@@ -105,5 +105,126 @@ header {
     .dropdown_menu {
         left: 2rem;
         width: unset;
+    }
+}
+
+main {
+    padding: 70px;
+}
+
+.img_img {
+    width: 400px;
+}
+
+.CV {
+    color: cornflowerblue;
+}
+.wrapper {
+    left: 50%;
+    top: 50%;
+}
+.block {
+    width: 100%;
+    padding: 30px 30px 50px;
+    background-color: #33c4f3;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+}
+
+.block * {
+    color: white;
+    font-weight: 500;
+}
+h2 {
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.bar {
+    position: relative;
+
+    border: 2px solid white;
+
+    border-radius: 20px;
+
+}
+
+
+.bar div {
+    position: relative;
+    width: 0;
+    height: 9px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.skills:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill {
+    100% {
+        width: 60%;
+    }
+}
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 55%;
+    }
+}
+
+#javascript-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 30%;
+    }
+}
+
+#illustrator-bar {
+    animation: ill-fill 2s forwards;
+}
+@keyframes ill-fill {
+    100%{
+        width: 85%;
+    }
+}
+
+#photoshop-bar {
+    animation: pho-fill 2s forwards;
+}
+@keyframes pho-fill {
+    100%{
+        width: 80%;
+    }
+}
+
+#xd-bar {
+    animation: xd-fill 2s forwards;
+}
+@keyframes xd-fill {
+    100%{
+        width: 80%;
     }
 }
