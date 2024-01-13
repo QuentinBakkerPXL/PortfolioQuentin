@@ -154,6 +154,7 @@ main {
 .padding {
     padding-top: 50px;
 }
-a {
+
+main a {
     color: #0a53be;
 }
